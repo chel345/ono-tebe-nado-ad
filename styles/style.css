@@ -9,7 +9,7 @@
     z-index: -1;
 }
 
-.header{
+.header {
     min-height: 293px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
@@ -22,7 +22,6 @@
 .header__links-list {
     display: flex;
     gap: 32px;
-    list-style: none;
     list-style: circle;
 }
 
@@ -201,7 +200,6 @@
 
 .lots__look-more-link {
     display: inline-block;
-    font-weight: 400;
     padding-left: 40px;
     margin-top: 30px;
     font-size: 20px;
